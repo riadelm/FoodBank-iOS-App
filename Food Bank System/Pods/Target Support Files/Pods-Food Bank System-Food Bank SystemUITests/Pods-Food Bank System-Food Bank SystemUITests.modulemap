@@ -1,0 +1,6 @@
+framework module Pods_Food_Bank_System_Food_Bank_SystemUITests {
+  umbrella header "Pods-Food Bank System-Food Bank SystemUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

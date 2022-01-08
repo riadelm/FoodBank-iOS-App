@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0428F0E924822F5D00BDDF50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428F0E824822F5D00BDDF50 /* AppDelegate.swift */; };
+		0428F0EB24822F5D00BDDF50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428F0EA24822F5D00BDDF50 /* SceneDelegate.swift */; };
+		0428F0ED24822F5D00BDDF50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428F0EC24822F5D00BDDF50 /* ViewController.swift */; };
+		0428F0F024822F5E00BDDF50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0428F0EE24822F5E00BDDF50 /* Main.storyboard */; };
+		0428F0F224822F6900BDDF50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0428F0F124822F6900BDDF50 /* Assets.xcassets */; };
+		0428F0F524822F6900BDDF50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0428F0F324822F6900BDDF50 /* LaunchScreen.storyboard */; };
+		0428F10024822F6900BDDF50 /* Food_Bank_SystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428F0FF24822F6900BDDF50 /* Food_Bank_SystemTests.swift */; };
+		0428F10B24822F6900BDDF50 /* Food_Bank_SystemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428F10A24822F6900BDDF50 /* Food_Bank_SystemUITests.swift */; };
+		0428F11B2482322000BDDF50 /* QRScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428F11A2482322000BDDF50 /* QRScannerController.swift */; };
+		045BD33224FD688B00E7B94A /* ManualView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045BD33124FD688B00E7B94A /* ManualView.swift */; };
+		049F181624A823E9004D148F /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F181524A823E9004D148F /* LocationModel.swift */; };
+		049F181C24A9A4B1004D148F /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F181B24A9A4B1004D148F /* Info.swift */; };
+		04B104FD248ACFC700C6E242 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B104FC248ACFC700C6E242 /* ProfileController.swift */; };
+		11101680F168365DA20EFEA1 /* Pods_Food_Bank_SystemTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A2773FE242BFBFAF752957 /* Pods_Food_Bank_SystemTests.framework */; };
+		1E9F842E0A884D0D8CF58988 /* Pods_Food_Bank_System.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A312AF0D8BA1661A33C0CFDE /* Pods_Food_Bank_System.framework */; };
+		428CB9276442467FFE8491A7 /* Pods_Food_Bank_System_Food_Bank_SystemUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56FE75FAA184D675ED0FFD62 /* Pods_Food_Bank_System_Food_Bank_SystemUITests.framework */; };
+		F87FE96A2495F91E00B710E2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87FE9692495F91E00B710E2 /* ProfileView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0428F0FC24822F6900BDDF50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0428F0DD24822F5D00BDDF50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0428F0E424822F5D00BDDF50;
+			remoteInfo = "Food Bank System";
+		};
+		0428F10724822F6900BDDF50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0428F0DD24822F5D00BDDF50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0428F0E424822F5D00BDDF50;
+			remoteInfo = "Food Bank System";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0428F0E524822F5D00BDDF50 /* Food Bank System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Bank System.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0428F0E824822F5D00BDDF50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0428F0EA24822F5D00BDDF50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0428F0EC24822F5D00BDDF50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0428F0EF24822F5E00BDDF50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0428F0F124822F6900BDDF50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0428F0F424822F6900BDDF50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0428F0F624822F6900BDDF50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0428F0FB24822F6900BDDF50 /* Food Bank SystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Food Bank SystemTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0428F0FF24822F6900BDDF50 /* Food_Bank_SystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_Bank_SystemTests.swift; sourceTree = "<group>"; };
+		0428F10124822F6900BDDF50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0428F10624822F6900BDDF50 /* Food Bank SystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Food Bank SystemUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0428F10A24822F6900BDDF50 /* Food_Bank_SystemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_Bank_SystemUITests.swift; sourceTree = "<group>"; };
+		0428F10C24822F6900BDDF50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0428F11A2482322000BDDF50 /* QRScannerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerController.swift; sourceTree = "<group>"; };
+		045BD33124FD688B00E7B94A /* ManualView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualView.swift; sourceTree = "<group>"; };
+		049F181524A823E9004D148F /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		049F181B24A9A4B1004D148F /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		04B104FC248ACFC700C6E242 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		393B7BD1961A6791744DDD0E /* Pods-Food Bank System.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food Bank System.debug.xcconfig"; path = "Target Support Files/Pods-Food Bank System/Pods-Food Bank System.debug.xcconfig"; sourceTree = "<group>"; };
+		56FE75FAA184D675ED0FFD62 /* Pods_Food_Bank_System_Food_Bank_SystemUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Food_Bank_System_Food_Bank_SystemUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		799771FD4C6855777CBAE3C6 /* Pods-Food Bank SystemTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food Bank SystemTests.debug.xcconfig"; path = "Target Support Files/Pods-Food Bank SystemTests/Pods-Food Bank SystemTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E4A81520610ED98E0CF67AB /* Pods-Food Bank System-Food Bank SystemUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food Bank System-Food Bank SystemUITests.release.xcconfig"; path = "Target Support Files/Pods-Food Bank System-Food Bank SystemUITests/Pods-Food Bank System-Food Bank SystemUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A312AF0D8BA1661A33C0CFDE /* Pods_Food_Bank_System.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Food_Bank_System.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3AAD792A0A4C19F280847D2 /* Pods-Food Bank System-Food Bank SystemUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food Bank System-Food Bank SystemUITests.debug.xcconfig"; path = "Target Support Files/Pods-Food Bank System-Food Bank SystemUITests/Pods-Food Bank System-Food Bank SystemUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4A2773FE242BFBFAF752957 /* Pods_Food_Bank_SystemTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Food_Bank_SystemTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D70A2FF8474D23C845D5A28E /* Pods-Food Bank SystemTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food Bank SystemTests.release.xcconfig"; path = "Target Support Files/Pods-Food Bank SystemTests/Pods-Food Bank SystemTests.release.xcconfig"; sourceTree = "<group>"; };
+		E6360E0446F9B755387114F5 /* Pods-Food Bank System.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food Bank System.release.xcconfig"; path = "Target Support Files/Pods-Food Bank System/Pods-Food Bank System.release.xcconfig"; sourceTree = "<group>"; };
+		F87FE9692495F91E00B710E2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0428F0E224822F5D00BDDF50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E9F842E0A884D0D8CF58988 /* Pods_Food_Bank_System.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0428F0F824822F6900BDDF50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11101680F168365DA20EFEA1 /* Pods_Food_Bank_SystemTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0428F10324822F6900BDDF50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428CB9276442467FFE8491A7 /* Pods_Food_Bank_System_Food_Bank_SystemUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0428F0DC24822F5C00BDDF50 = {
+			isa = PBXGroup;
+			children = (
+				0428F0E724822F5D00BDDF50 /* Food Bank System */,
+				0428F0FE24822F6900BDDF50 /* Food Bank SystemTests */,
+				0428F10924822F6900BDDF50 /* Food Bank SystemUITests */,
+				0428F0E624822F5D00BDDF50 /* Products */,
+				4EAC383574AD698FBE800892 /* Pods */,
+				B16C5E99DA8DFC20A39FDE2B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0428F0E624822F5D00BDDF50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0428F0E524822F5D00BDDF50 /* Food Bank System.app */,
+				0428F0FB24822F6900BDDF50 /* Food Bank SystemTests.xctest */,
+				0428F10624822F6900BDDF50 /* Food Bank SystemUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0428F0E724822F5D00BDDF50 /* Food Bank System */ = {
+			isa = PBXGroup;
+			children = (
+				0428F0E824822F5D00BDDF50 /* AppDelegate.swift */,
+				0428F0EA24822F5D00BDDF50 /* SceneDelegate.swift */,
+				0428F0EC24822F5D00BDDF50 /* ViewController.swift */,
+				0428F11A2482322000BDDF50 /* QRScannerController.swift */,
+				04B104FC248ACFC700C6E242 /* ProfileController.swift */,
+				F87FE9692495F91E00B710E2 /* ProfileView.swift */,
+				0428F0EE24822F5E00BDDF50 /* Main.storyboard */,
+				0428F0F124822F6900BDDF50 /* Assets.xcassets */,
+				0428F0F324822F6900BDDF50 /* LaunchScreen.storyboard */,
+				0428F0F624822F6900BDDF50 /* Info.plist */,
+				049F181524A823E9004D148F /* LocationModel.swift */,
+				049F181B24A9A4B1004D148F /* Info.swift */,
+				045BD33124FD688B00E7B94A /* ManualView.swift */,
+			);
+			path = "Food Bank System";
+			sourceTree = "<group>";
+		};
+		0428F0FE24822F6900BDDF50 /* Food Bank SystemTests */ = {
+			isa = PBXGroup;
+			children = (
+				0428F0FF24822F6900BDDF50 /* Food_Bank_SystemTests.swift */,
+				0428F10124822F6900BDDF50 /* Info.plist */,
+			);
+			path = "Food Bank SystemTests";
+			sourceTree = "<group>";
+		};
+		0428F10924822F6900BDDF50 /* Food Bank SystemUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0428F10A24822F6900BDDF50 /* Food_Bank_SystemUITests.swift */,
+				0428F10C24822F6900BDDF50 /* Info.plist */,
+			);
+			path = "Food Bank SystemUITests";
+			sourceTree = "<group>";
+		};
+		4EAC383574AD698FBE800892 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				393B7BD1961A6791744DDD0E /* Pods-Food Bank System.debug.xcconfig */,
+				E6360E0446F9B755387114F5 /* Pods-Food Bank System.release.xcconfig */,
+				C3AAD792A0A4C19F280847D2 /* Pods-Food Bank System-Food Bank SystemUITests.debug.xcconfig */,
+				7E4A81520610ED98E0CF67AB /* Pods-Food Bank System-Food Bank SystemUITests.release.xcconfig */,
+				799771FD4C6855777CBAE3C6 /* Pods-Food Bank SystemTests.debug.xcconfig */,
+				D70A2FF8474D23C845D5A28E /* Pods-Food Bank SystemTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B16C5E99DA8DFC20A39FDE2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A312AF0D8BA1661A33C0CFDE /* Pods_Food_Bank_System.framework */,
+				56FE75FAA184D675ED0FFD62 /* Pods_Food_Bank_System_Food_Bank_SystemUITests.framework */,
+				C4A2773FE242BFBFAF752957 /* Pods_Food_Bank_SystemTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0428F0E424822F5D00BDDF50 /* Food Bank System */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0428F10F24822F6900BDDF50 /* Build configuration list for PBXNativeTarget "Food Bank System" */;
+			buildPhases = (
+				79B2070DCD80E29C7F191BDA /* [CP] Check Pods Manifest.lock */,
+				0428F0E124822F5D00BDDF50 /* Sources */,
+				0428F0E224822F5D00BDDF50 /* Frameworks */,
+				0428F0E324822F5D00BDDF50 /* Resources */,
+				60A39A3002CEF397D80B7ADC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Food Bank System";
+			productName = "Food Bank System";
+			productReference = 0428F0E524822F5D00BDDF50 /* Food Bank System.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0428F0FA24822F6900BDDF50 /* Food Bank SystemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0428F11224822F6900BDDF50 /* Build configuration list for PBXNativeTarget "Food Bank SystemTests" */;
+			buildPhases = (
+				6017296546070054DE64FF9E /* [CP] Check Pods Manifest.lock */,
+				0428F0F724822F6900BDDF50 /* Sources */,
+				0428F0F824822F6900BDDF50 /* Frameworks */,
+				0428F0F924822F6900BDDF50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0428F0FD24822F6900BDDF50 /* PBXTargetDependency */,
+			);
+			name = "Food Bank SystemTests";
+			productName = "Food Bank SystemTests";
+			productReference = 0428F0FB24822F6900BDDF50 /* Food Bank SystemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0428F10524822F6900BDDF50 /* Food Bank SystemUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0428F11524822F6900BDDF50 /* Build configuration list for PBXNativeTarget "Food Bank SystemUITests" */;
+			buildPhases = (
+				722A0E171761A8DB2F93B570 /* [CP] Check Pods Manifest.lock */,
+				0428F10224822F6900BDDF50 /* Sources */,
+				0428F10324822F6900BDDF50 /* Frameworks */,
+				0428F10424822F6900BDDF50 /* Resources */,
+				C92CEFC490D4C490B5253141 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0428F10824822F6900BDDF50 /* PBXTargetDependency */,
+			);
+			name = "Food Bank SystemUITests";
+			productName = "Food Bank SystemUITests";
+			productReference = 0428F10624822F6900BDDF50 /* Food Bank SystemUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0428F0DD24822F5D00BDDF50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = MeetTheNeed;
+				TargetAttributes = {
+					0428F0E424822F5D00BDDF50 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					0428F0FA24822F6900BDDF50 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 0428F0E424822F5D00BDDF50;
+					};
+					0428F10524822F6900BDDF50 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 0428F0E424822F5D00BDDF50;
+					};
+				};
+			};
+			buildConfigurationList = 0428F0E024822F5D00BDDF50 /* Build configuration list for PBXProject "Food Bank System" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0428F0DC24822F5C00BDDF50;
+			productRefGroup = 0428F0E624822F5D00BDDF50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0428F0E424822F5D00BDDF50 /* Food Bank System */,
+				0428F0FA24822F6900BDDF50 /* Food Bank SystemTests */,
+				0428F10524822F6900BDDF50 /* Food Bank SystemUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0428F0E324822F5D00BDDF50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0428F0F524822F6900BDDF50 /* LaunchScreen.storyboard in Resources */,
+				0428F0F224822F6900BDDF50 /* Assets.xcassets in Resources */,
+				0428F0F024822F5E00BDDF50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0428F0F924822F6900BDDF50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0428F10424822F6900BDDF50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6017296546070054DE64FF9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Food Bank SystemTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60A39A3002CEF397D80B7ADC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Food Bank System/Pods-Food Bank System-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Food Bank System/Pods-Food Bank System-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Food Bank System/Pods-Food Bank System-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		722A0E171761A8DB2F93B570 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Food Bank System-Food Bank SystemUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79B2070DCD80E29C7F191BDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Food Bank System-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C92CEFC490D4C490B5253141 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Food Bank System-Food Bank SystemUITests/Pods-Food Bank System-Food Bank SystemUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Food Bank System-Food Bank SystemUITests/Pods-Food Bank System-Food Bank SystemUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Food Bank System-Food Bank SystemUITests/Pods-Food Bank System-Food Bank SystemUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0428F0E124822F5D00BDDF50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0428F0ED24822F5D00BDDF50 /* ViewController.swift in Sources */,
+				0428F11B2482322000BDDF50 /* QRScannerController.swift in Sources */,
+				045BD33224FD688B00E7B94A /* ManualView.swift in Sources */,
+				04B104FD248ACFC700C6E242 /* ProfileController.swift in Sources */,
+				049F181C24A9A4B1004D148F /* Info.swift in Sources */,
+				0428F0E924822F5D00BDDF50 /* AppDelegate.swift in Sources */,
+				F87FE96A2495F91E00B710E2 /* ProfileView.swift in Sources */,
+				049F181624A823E9004D148F /* LocationModel.swift in Sources */,
+				0428F0EB24822F5D00BDDF50 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0428F0F724822F6900BDDF50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0428F10024822F6900BDDF50 /* Food_Bank_SystemTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0428F10224822F6900BDDF50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0428F10B24822F6900BDDF50 /* Food_Bank_SystemUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0428F0FD24822F6900BDDF50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0428F0E424822F5D00BDDF50 /* Food Bank System */;
+			targetProxy = 0428F0FC24822F6900BDDF50 /* PBXContainerItemProxy */;
+		};
+		0428F10824822F6900BDDF50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0428F0E424822F5D00BDDF50 /* Food Bank System */;
+			targetProxy = 0428F10724822F6900BDDF50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0428F0EE24822F5E00BDDF50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0428F0EF24822F5E00BDDF50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0428F0F324822F6900BDDF50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0428F0F424822F6900BDDF50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0428F10D24822F6900BDDF50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0428F10E24822F6900BDDF50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0428F11024822F6900BDDF50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 393B7BD1961A6791744DDD0E /* Pods-Food Bank System.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93Z825Y68C;
+				INFOPLIST_FILE = "Food Bank System/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MeetTheNeed.Food-Bank-System.qrcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0428F11124822F6900BDDF50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6360E0446F9B755387114F5 /* Pods-Food Bank System.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93Z825Y68C;
+				INFOPLIST_FILE = "Food Bank System/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MeetTheNeed.Food-Bank-System.qrcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0428F11324822F6900BDDF50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 799771FD4C6855777CBAE3C6 /* Pods-Food Bank SystemTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Food Bank SystemTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MeetTheNeed.Food-Bank-SystemTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Food Bank System.app/Food Bank System";
+			};
+			name = Debug;
+		};
+		0428F11424822F6900BDDF50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D70A2FF8474D23C845D5A28E /* Pods-Food Bank SystemTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Food Bank SystemTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MeetTheNeed.Food-Bank-SystemTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Food Bank System.app/Food Bank System";
+			};
+			name = Release;
+		};
+		0428F11624822F6900BDDF50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3AAD792A0A4C19F280847D2 /* Pods-Food Bank System-Food Bank SystemUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Food Bank SystemUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MeetTheNeed.Food-Bank-SystemUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Food Bank System";
+			};
+			name = Debug;
+		};
+		0428F11724822F6900BDDF50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E4A81520610ED98E0CF67AB /* Pods-Food Bank System-Food Bank SystemUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Food Bank SystemUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MeetTheNeed.Food-Bank-SystemUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Food Bank System";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0428F0E024822F5D00BDDF50 /* Build configuration list for PBXProject "Food Bank System" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0428F10D24822F6900BDDF50 /* Debug */,
+				0428F10E24822F6900BDDF50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0428F10F24822F6900BDDF50 /* Build configuration list for PBXNativeTarget "Food Bank System" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0428F11024822F6900BDDF50 /* Debug */,
+				0428F11124822F6900BDDF50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0428F11224822F6900BDDF50 /* Build configuration list for PBXNativeTarget "Food Bank SystemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0428F11324822F6900BDDF50 /* Debug */,
+				0428F11424822F6900BDDF50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0428F11524822F6900BDDF50 /* Build configuration list for PBXNativeTarget "Food Bank SystemUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0428F11624822F6900BDDF50 /* Debug */,
+				0428F11724822F6900BDDF50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0428F0DD24822F5D00BDDF50 /* Project object */;
+}

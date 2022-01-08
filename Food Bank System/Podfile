@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Food Bank System' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+pod 'DropDown'
+
+  target 'Food Bank SystemTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Food Bank SystemUITests' do
+    # Pods for testing
+  end
+
+end

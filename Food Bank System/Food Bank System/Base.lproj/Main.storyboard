@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="Food_Bank_System" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meet The Need" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6zx-xn-5RC">
+                                <rect key="frame" x="43.818808819481319" y="122" width="324" height="105.99999999999999"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.30362605710000001" green="0.46048642200000001" blue="0.48985586240000001" alpha="0.3372896635" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="39"/>
+                                <color key="textColor" red="0.23448445891416206" green="0.38984416401408784" blue="0.40094721502590669" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.35126547619999998" green="0.52441410440000003" blue="0.55181347150000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="3" height="-9"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scanner le code QR du dépendant pour recevoir les informations nécessaires" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Sli-PS-H7g">
+                                <rect key="frame" x="31.818808819481546" y="255" width="349" height="202.00000000000009"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.46256353480233808" green="0.78306192159999999" blue="0.45384151328230865" alpha="0.3098041373" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="contentStretch" x="0.69999999999999996" y="0.0" width="1" height="1"/>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="20"/>
+                                <color key="textColor" red="0.22701266640000001" green="0.34429275110000002" blue="0.36625145599999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="EVI-UP-aar">
+                                <rect key="frame" x="82.818808819481319" y="449" width="247" height="234.00000000000003"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.24386781577337285" green="0.42016349946099196" blue="0.48985586240310075" alpha="0.34000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="contentStretch" x="0.80000000000000004" y="0.0" width="1" height="1"/>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="30"/>
+                                <color key="tintColor" systemColor="tertiarySystemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="camera.fill" catalog="system">
+                                    <color key="titleColor" red="0.35412238887424763" green="0.6203367248062015" blue="0.31999422698210117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.80792584196891193" green="0.74658777602966386" blue="0.23549760876594114" alpha="0.400665713028169" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="83" scale="large" weight="bold"/>
+                                </state>
+                                <connections>
+                                    <segue destination="AUI-Zi-Gpy" kind="presentation" id="Qpd-k2-zG6"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.88237923380000005" green="0.99009412529999996" blue="0.94579666849999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <accessibility key="accessibilityConfiguration">
+                            <accessibilityTraits key="traits" button="YES"/>
+                        </accessibility>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Xmo-2g-07g"/>
+                    <size key="freeformSize" width="414" height="896"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="120.53571428571428"/>
+        </scene>
+        <!--Scanner Controller-->
+        <scene sceneID="DtQ-DC-1ux">
+            <objects>
+                <viewController id="AUI-Zi-Gpy" customClass="QRScannerController" customModule="Food_Bank_System" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jAU-Is-fYe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar alpha="0.90000000000000002" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7eb-ly-jLr">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                                <color key="backgroundColor" red="0.2344844589" green="0.38984416399999999" blue="0.40094721500000002" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <items>
+                                    <navigationItem title="Scanner" id="SPi-jL-LWi">
+                                        <barButtonItem key="backBarButtonItem" title="Back" id="pbX-1a-bXw"/>
+                                        <barButtonItem key="leftBarButtonItem" title="Back" width="3" style="plain" id="0eV-YF-TzH">
+                                            <color key="tintColor" red="0.2344844589" green="0.38984416399999999" blue="0.40094721500000002" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <connections>
+                                                <segue destination="65g-ZQ-qXr" kind="unwind" unwindAction="unwindToHomeScreenWithSegue:" id="gUt-yW-rlf"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Aucun code QR n'est détecté" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZUz-1U-b1U">
+                                <rect key="frame" x="0.0" y="721" width="414" height="121"/>
+                                <color key="backgroundColor" red="0.2344844589" green="0.38984416399999999" blue="0.40094721500000002" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="121" id="YwJ-Sl-wwD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="21"/>
+                                <color key="textColor" red="0.065060905974059016" green="0.098350413639312975" blue="0.10336382772020725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottomMargin" secondItem="ZUz-1U-b1U" secondAttribute="bottom" constant="-34" id="QgZ-hd-mRn"/>
+                            <constraint firstItem="ZUz-1U-b1U" firstAttribute="bottom" secondItem="1Py-Cv-RsM" secondAttribute="bottom" constant="34" id="ig0-Ap-VGi"/>
+                            <constraint firstItem="ZUz-1U-b1U" firstAttribute="top" secondItem="1Py-Cv-RsM" secondAttribute="top" constant="721" id="qgd-C3-S1l"/>
+                            <constraint firstItem="7eb-ly-jLr" firstAttribute="centerX" secondItem="1Py-Cv-RsM" secondAttribute="centerX" id="y1t-UK-6rC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="1Py-Cv-RsM"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="tCH-go-yQD"/>
+                    <connections>
+                        <outlet property="backButton" destination="0eV-YF-TzH" id="Bjq-l3-66u"/>
+                        <outlet property="messageLabel1" destination="ZUz-1U-b1U" id="70E-Xt-Shh"/>
+                        <outlet property="titleView" destination="7eb-ly-jLr" id="7cM-Ui-Zmc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z6j-4A-gOe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="65g-ZQ-qXr" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="995.65217391304361" y="120.53571428571428"/>
+        </scene>
+        <!--Profile Controller-->
+        <scene sceneID="EQA-kt-7dL">
+            <objects>
+                <viewController storyboardIdentifier="ProfileController" id="i24-vd-3E8" customClass="ProfileController" customModule="Food_Bank_System" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fYT-Zx-Okp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8MI-ze-sMm">
+                                <rect key="frame" x="51" y="96" width="312" height="38"/>
+                                <color key="backgroundColor" red="0.64858334210000002" green="0.78306192159999999" blue="0.75594349620000001" alpha="0.31" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="25"/>
+                                <color key="textColor" red="0.22864952820000001" green="0.345641908" blue="0.36326101039999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Nom du Dependant" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="czk-sf-Ya1">
+                                <rect key="frame" x="51" y="61" width="201" height="27"/>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="18"/>
+                                <color key="textColor" red="0.23650983344430743" green="0.35752407072669995" blue="0.37574886657772022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" misplaced="YES" text="Nombre de Paniers Reçus" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ycs-FO-zDV">
+                                <rect key="frame" x="51" y="221" width="253" height="27"/>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="18"/>
+                                <color key="textColor" red="0.22864952817976963" green="0.34564190796667327" blue="0.36326101036010361" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nOS-OI-Xd7">
+                                <rect key="frame" x="51" y="247" width="312" height="38"/>
+                                <color key="backgroundColor" red="0.64858334210000002" green="0.78306192159999999" blue="0.75594349620000001" alpha="0.3098041373" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="25"/>
+                                <color key="textColor" red="0.22864952820000001" green="0.345641908" blue="0.36326101039999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Zh-v6-VTz">
+                                <rect key="frame" x="292" y="336" width="51" height="31"/>
+                                <connections>
+                                    <action selector="livraisonSwitch:" destination="i24-vd-3E8" eventType="valueChanged" id="Vs6-dg-OaE"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Date de Naissance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MtS-bJ-ePf">
+                                <rect key="frame" x="51" y="142" width="174" height="24"/>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="18"/>
+                                <color key="textColor" red="0.22701266640000001" green="0.34429275110000002" blue="0.36625145599999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QU4-dU-Xwv">
+                                <rect key="frame" x="51" y="169" width="312" height="39"/>
+                                <color key="backgroundColor" red="0.64858334210000002" green="0.78306192159999999" blue="0.75594349620000001" alpha="0.3098041373" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="25"/>
+                                <color key="textColor" red="0.22701266640000001" green="0.34429275110000002" blue="0.36625145599999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Livraison" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ylK-o6-eJB">
+                                <rect key="frame" x="51" y="363" width="82" height="24"/>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="18"/>
+                                <color key="textColor" red="0.22701266640000001" green="0.34429275110000002" blue="0.36625145599999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7oA-J1-o8K">
+                                <rect key="frame" x="292" y="376" width="51" height="31"/>
+                                <connections>
+                                    <action selector="emergencySwitch:" destination="i24-vd-3E8" eventType="valueChanged" id="Et8-qr-4JT"/>
+                                </connections>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EBI-nS-Hfm">
+                                <rect key="frame" x="292" y="414" width="51" height="31"/>
+                                <connections>
+                                    <action selector="christmasSwitch:" destination="i24-vd-3E8" eventType="valueChanged" id="juX-vL-Ed9"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Dépannage d'Urgence" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CXq-Ee-qAX">
+                                <rect key="frame" x="50" y="401" width="202" height="24"/>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="18"/>
+                                <color key="textColor" red="0.22701266640000001" green="0.34429275110000002" blue="0.36625145599999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Panier de Noël" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oid-Ez-OzP">
+                                <rect key="frame" x="50" y="440" width="140" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="18"/>
+                                <color key="textColor" red="0.22701266640000001" green="0.34429275110000002" blue="0.36625145599999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Selectionner une option" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XOX-NS-GXE">
+                                <rect key="frame" x="50" y="502" width="312" height="34"/>
+                                <color key="backgroundColor" red="0.64858334210000002" green="0.78306192159999999" blue="0.75594349620000001" alpha="0.3098041373" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.22701266640000001" green="0.34429275110000002" blue="0.36625145599999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Preuve d'étudiant" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6nW-6K-Euf">
+                                <rect key="frame" x="51" y="476" width="164" height="24"/>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="18"/>
+                                <color key="textColor" red="0.22701266640000001" green="0.34429275110000002" blue="0.36625145599999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="djR-BC-Uk6">
+                                <rect key="frame" x="153" y="319" width="109" height="34"/>
+                                <color key="backgroundColor" red="0.64858334210000002" green="0.78306192159999999" blue="0.75594349620000001" alpha="0.3098041373" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.16940896280000001" green="0.25692961889999999" blue="0.27331637600000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="23"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="moneyFieldAction:" destination="i24-vd-3E8" eventType="editingDidEnd" id="uCJ-kP-2Ab"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nombre d'Argent Donné" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kah-Yi-7Qq">
+                                <rect key="frame" x="51" y="293" width="224.5" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="18"/>
+                                <color key="textColor" red="0.22864952820000001" green="0.345641908" blue="0.36326101039999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Preuve de résidence" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KNn-3z-mVa">
+                                <rect key="frame" x="51" y="544" width="192" height="24"/>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="18"/>
+                                <color key="textColor" red="0.22701266640000001" green="0.34429275110000002" blue="0.36625145599999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Selectionner une option" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9Si-zh-1Ym">
+                                <rect key="frame" x="51" y="569" width="311" height="34"/>
+                                <color key="backgroundColor" red="0.64858334210000002" green="0.78306192159999999" blue="0.75594349620000001" alpha="0.3098041373" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.22701266640000001" green="0.34429275110000002" blue="0.36625145599999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GaG-5T-WeI">
+                                <rect key="frame" x="30" y="625" width="352" height="111"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0QC-kj-7f9">
+                                        <rect key="frame" x="65" y="0.0" width="222" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.59662247250806011" green="0.81988856589147285" blue="0.57532569551104851" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="21"/>
+                                        <state key="normal" title="Ajouter un Panier">
+                                            <color key="titleColor" red="0.22864952820000001" green="0.345641908" blue="0.36326101039999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="giveBasket:" destination="i24-vd-3E8" eventType="touchUpInside" id="gLe-C6-7el"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oYW-Ze-8ML">
+                                        <rect key="frame" x="65" y="58" width="222" height="53"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.5966224725" green="0.81988856590000003" blue="0.57532569550000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="20"/>
+                                        <state key="normal" title="Lire à Nouveau">
+                                            <color key="titleColor" red="0.22864952820000001" green="0.345641908" blue="0.36326101039999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="scanAgain:" destination="i24-vd-3E8" eventType="touchUpInside" id="Msz-fB-cIG"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="EBI-nS-Hfm" firstAttribute="leading" secondItem="XgR-CM-jdi" secondAttribute="leading" constant="292" id="0VY-ej-TLU"/>
+                            <constraint firstItem="QU4-dU-Xwv" firstAttribute="leading" secondItem="XgR-CM-jdi" secondAttribute="leading" constant="53" id="3qv-0L-Ocn"/>
+                            <constraint firstItem="XgR-CM-jdi" firstAttribute="trailing" secondItem="djR-BC-Uk6" secondAttribute="trailing" constant="150" id="3yy-0A-k0d"/>
+                            <constraint firstItem="nOS-OI-Xd7" firstAttribute="leading" secondItem="XgR-CM-jdi" secondAttribute="leading" constant="53" id="4MC-kW-WIa"/>
+                            <constraint firstItem="QU4-dU-Xwv" firstAttribute="top" secondItem="XgR-CM-jdi" secondAttribute="top" constant="102" id="6BG-oy-5bY"/>
+                            <constraint firstItem="CXq-Ee-qAX" firstAttribute="width" secondItem="fYT-Zx-Okp" secondAttribute="height" multiplier="101:448" id="71a-3p-vEY"/>
+                            <constraint firstItem="9Si-zh-1Ym" firstAttribute="centerX" secondItem="XgR-CM-jdi" secondAttribute="centerX" id="73D-aH-FQF"/>
+                            <constraint firstItem="XgR-CM-jdi" firstAttribute="top" secondItem="czk-sf-Ya1" secondAttribute="top" constant="6" id="7gD-nZ-697"/>
+                            <constraint firstItem="XOX-NS-GXE" firstAttribute="top" secondItem="XgR-CM-jdi" secondAttribute="top" constant="435" id="83u-WE-gGv"/>
+                            <constraint firstItem="djR-BC-Uk6" firstAttribute="top" secondItem="XgR-CM-jdi" secondAttribute="top" constant="252" id="C3N-ec-c9M"/>
+                            <constraint firstItem="ylK-o6-eJB" firstAttribute="leading" secondItem="XgR-CM-jdi" secondAttribute="leading" constant="53" id="Dpi-mu-IaP"/>
+                            <constraint firstItem="4Zh-v6-VTz" firstAttribute="leading" secondItem="XgR-CM-jdi" secondAttribute="leading" constant="292" id="EqY-rT-7dX"/>
+                            <constraint firstItem="nOS-OI-Xd7" firstAttribute="top" secondItem="XgR-CM-jdi" secondAttribute="top" constant="180" id="Fan-sm-I7W"/>
+                            <constraint firstItem="KNn-3z-mVa" firstAttribute="leading" secondItem="XgR-CM-jdi" secondAttribute="leading" constant="53" id="IUz-sO-Ept"/>
+                            <constraint firstItem="GaG-5T-WeI" firstAttribute="top" secondItem="XgR-CM-jdi" secondAttribute="top" constant="544" id="L9e-xG-hhN"/>
+                            <constraint firstItem="XgR-CM-jdi" firstAttribute="trailing" secondItem="7oA-J1-o8K" secondAttribute="trailing" constant="73" id="LLj-3m-Cuw"/>
+                            <constraint firstItem="XgR-CM-jdi" firstAttribute="trailing" secondItem="GaG-5T-WeI" secondAttribute="trailing" constant="29" id="MDH-KB-rxp"/>
+                            <constraint firstItem="CXq-Ee-qAX" firstAttribute="top" secondItem="XgR-CM-jdi" secondAttribute="top" constant="334" id="NEb-n5-o3U"/>
+                            <constraint firstItem="ylK-o6-eJB" firstAttribute="width" secondItem="XgR-CM-jdi" secondAttribute="height" multiplier="41:409" id="NKE-Bw-Z68"/>
+                            <constraint firstItem="8MI-ze-sMm" firstAttribute="top" secondItem="XgR-CM-jdi" secondAttribute="top" constant="29" id="NKN-0I-fEY"/>
+                            <constraint firstItem="XgR-CM-jdi" firstAttribute="trailing" secondItem="9Si-zh-1Ym" secondAttribute="trailing" constant="50" id="O2j-FU-sNu"/>
+                            <constraint firstItem="XOX-NS-GXE" firstAttribute="leading" secondItem="XgR-CM-jdi" secondAttribute="leading" constant="52" id="OEH-Zp-uKP"/>
+                            <constraint firstItem="8MI-ze-sMm" firstAttribute="leading" secondItem="XgR-CM-jdi" secondAttribute="leading" constant="53" id="P8g-jV-Y4E"/>
+                            <constraint firstItem="XgR-CM-jdi" firstAttribute="trailing" secondItem="Ycs-FO-zDV" secondAttribute="trailing" constant="108" id="QvQ-ZA-DSY"/>
+                            <constraint firstItem="9Si-zh-1Ym" firstAttribute="top" secondItem="XgR-CM-jdi" secondAttribute="top" constant="502" id="RSf-PK-AOb"/>
+                            <constraint firstItem="XOX-NS-GXE" firstAttribute="centerX" secondItem="XgR-CM-jdi" secondAttribute="centerX" id="S28-70-RRM"/>
+                            <constraint firstItem="Ycs-FO-zDV" firstAttribute="top" secondItem="XgR-CM-jdi" secondAttribute="top" constant="154" id="SFr-sp-QA8"/>
+                            <constraint firstItem="XgR-CM-jdi" firstAttribute="trailing" secondItem="MtS-bJ-ePf" secondAttribute="trailing" constant="187" id="Uuh-qo-oiG"/>
+                            <constraint firstItem="CXq-Ee-qAX" firstAttribute="leading" secondItem="XgR-CM-jdi" secondAttribute="leading" constant="52" id="WcR-gj-Uls"/>
+                            <constraint firstItem="XgR-CM-jdi" firstAttribute="trailing" secondItem="czk-sf-Ya1" secondAttribute="trailing" constant="160" id="X9a-kS-4rJ"/>
+                            <constraint firstItem="7oA-J1-o8K" firstAttribute="leading" secondItem="XgR-CM-jdi" secondAttribute="leading" constant="292" id="YRg-XM-bch"/>
+                            <constraint firstItem="MtS-bJ-ePf" firstAttribute="leading" secondItem="XgR-CM-jdi" secondAttribute="leading" constant="53" id="ZFi-YT-fgg"/>
+                            <constraint firstItem="Ycs-FO-zDV" firstAttribute="leading" secondItem="XgR-CM-jdi" secondAttribute="leading" constant="53" id="Zgo-Uc-Ur5"/>
+                            <constraint firstItem="9Si-zh-1Ym" firstAttribute="leading" secondItem="XgR-CM-jdi" secondAttribute="leading" constant="53" id="aVs-qH-Uvl"/>
+                            <constraint firstItem="XgR-CM-jdi" firstAttribute="trailing" secondItem="ylK-o6-eJB" secondAttribute="trailing" constant="279" id="bZc-8Y-9nc"/>
+                            <constraint firstItem="djR-BC-Uk6" firstAttribute="leading" secondItem="XgR-CM-jdi" secondAttribute="leading" constant="155" id="bgt-0X-8SG"/>
+                            <constraint firstItem="8MI-ze-sMm" firstAttribute="width" secondItem="fYT-Zx-Okp" secondAttribute="height" multiplier="39:112" id="biU-x0-ScY"/>
+                            <constraint firstItem="CXq-Ee-qAX" firstAttribute="leading" secondItem="XgR-CM-jdi" secondAttribute="leading" constant="52" id="bvh-Xc-K1w"/>
+                            <constraint firstItem="XgR-CM-jdi" firstAttribute="trailing" secondItem="6nW-6K-Euf" secondAttribute="trailing" constant="197" id="bxc-3x-WKQ"/>
+                            <constraint firstItem="XgR-CM-jdi" firstAttribute="trailing" secondItem="XOX-NS-GXE" secondAttribute="trailing" constant="50" id="coh-LD-pC7"/>
+                            <constraint firstItem="XgR-CM-jdi" firstAttribute="trailing" secondItem="QU4-dU-Xwv" secondAttribute="trailing" constant="49" id="eFX-7c-slb"/>
+                            <constraint firstItem="ylK-o6-eJB" firstAttribute="top" secondItem="XgR-CM-jdi" secondAttribute="top" constant="296" id="gMf-6z-qHQ"/>
+                            <constraint firstItem="XgR-CM-jdi" firstAttribute="trailing" secondItem="4Zh-v6-VTz" secondAttribute="trailing" constant="73" id="gTk-L3-MzI"/>
+                            <constraint firstItem="MtS-bJ-ePf" firstAttribute="top" secondItem="XgR-CM-jdi" secondAttribute="top" constant="75" id="hF9-2p-zUI"/>
+                            <constraint firstItem="GaG-5T-WeI" firstAttribute="leading" secondItem="XgR-CM-jdi" secondAttribute="leading" constant="33" id="i6s-3i-etr"/>
+                            <constraint firstItem="4Zh-v6-VTz" firstAttribute="top" secondItem="XgR-CM-jdi" secondAttribute="top" constant="292" id="klg-hy-uYD"/>
+                            <constraint firstItem="XgR-CM-jdi" firstAttribute="trailing" secondItem="CXq-Ee-qAX" secondAttribute="trailing" constant="160" id="lA0-XE-BTF"/>
+                            <constraint firstItem="XgR-CM-jdi" firstAttribute="trailing" secondItem="nOS-OI-Xd7" secondAttribute="trailing" constant="49" id="lQq-e5-Zes"/>
+                            <constraint firstItem="6nW-6K-Euf" firstAttribute="top" secondItem="XgR-CM-jdi" secondAttribute="top" constant="409" id="lj8-jy-c1O"/>
+                            <constraint firstItem="Ycs-FO-zDV" firstAttribute="leading" secondItem="XgR-CM-jdi" secondAttribute="leading" constant="53" id="mLJ-yl-8Ci"/>
+                            <constraint firstItem="XgR-CM-jdi" firstAttribute="trailing" secondItem="8MI-ze-sMm" secondAttribute="trailing" constant="49" id="pIW-BI-y5a"/>
+                            <constraint firstItem="KNn-3z-mVa" firstAttribute="top" secondItem="XgR-CM-jdi" secondAttribute="top" constant="477" id="qhX-1P-fjA"/>
+                            <constraint firstItem="XgR-CM-jdi" firstAttribute="trailing" secondItem="KNn-3z-mVa" secondAttribute="trailing" constant="169" id="rpM-gS-AAx"/>
+                            <constraint firstItem="EBI-nS-Hfm" firstAttribute="top" secondItem="XgR-CM-jdi" secondAttribute="top" constant="370" id="tC9-ax-I6A"/>
+                            <constraint firstItem="XgR-CM-jdi" firstAttribute="trailing" secondItem="EBI-nS-Hfm" secondAttribute="trailing" constant="73" id="uYk-Yu-S8L"/>
+                            <constraint firstItem="czk-sf-Ya1" firstAttribute="leading" secondItem="XgR-CM-jdi" secondAttribute="leading" constant="53" id="vPE-jP-Mvf"/>
+                            <constraint firstItem="6nW-6K-Euf" firstAttribute="leading" secondItem="XgR-CM-jdi" secondAttribute="leading" constant="53" id="wzv-Hw-m0U"/>
+                            <constraint firstItem="GaG-5T-WeI" firstAttribute="centerX" secondItem="XgR-CM-jdi" secondAttribute="centerX" id="xhn-QX-ohD"/>
+                            <constraint firstItem="7oA-J1-o8K" firstAttribute="top" secondItem="XgR-CM-jdi" secondAttribute="top" constant="332" id="zMF-mS-5jc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="XgR-CM-jdi"/>
+                    </view>
+                    <connections>
+                        <outlet property="basketsRemainingLabel" destination="nOS-OI-Xd7" id="9mT-6S-itY"/>
+                        <outlet property="buttons" destination="GaG-5T-WeI" id="HwJ-Sy-3d1"/>
+                        <outlet property="christmasSwitch" destination="EBI-nS-Hfm" id="6g7-TE-DSs"/>
+                        <outlet property="dateOfBirthLabel" destination="QU4-dU-Xwv" id="fGX-Lm-chb"/>
+                        <outlet property="emergencySwitch" destination="7oA-J1-o8K" id="Mbh-Au-ASY"/>
+                        <outlet property="livraisonSwitch" destination="4Zh-v6-VTz" id="ra6-zr-XIP"/>
+                        <outlet property="moneyGiven" destination="djR-BC-Uk6" id="Ta2-t3-fEq"/>
+                        <outlet property="moneyGivenField" destination="djR-BC-Uk6" id="Sxx-Bu-Lqq"/>
+                        <outlet property="nameLabel" destination="8MI-ze-sMm" id="VfA-nU-6a9"/>
+                        <outlet property="residentProofLabel" destination="KNn-3z-mVa" id="8Gh-bw-cQD"/>
+                        <outlet property="studentProofLabel" destination="6nW-6K-Euf" id="lNJ-xR-7pq"/>
+                        <outlet property="textFieldResident" destination="9Si-zh-1Ym" id="7BX-Vy-E1g"/>
+                        <outlet property="textFieldStudent" destination="XOX-NS-GXE" id="m8A-c3-nrs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QbF-nP-wby" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1869.5652173913045" y="119.19642857142857"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="camera.fill" catalog="system" width="128" height="96"/>
+    </resources>
+</document>
